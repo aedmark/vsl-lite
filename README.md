@@ -1,4 +1,4 @@
-# VSL CryoSomatic Hypervisor LITE
+# VSL-CryoSomatic Hypervisor Lite v19.2.0 README
 
 > **"Conversations have energy. Silence matters. Sometimes the best answer isn't the one that feels smoothest."**
 
@@ -12,10 +12,10 @@ Instead of infinitely generating text until you are exhausted, VSL-Lite tracks c
 
 If you treat an AI like an infinite vending machine, it will give you infinite fast food. VSL-Lite treats the conversation as a shared biological ecosystem:
 
-* **Stamina (P):** Hard questions drain the battery. When the battery is low, the system uses simpler words and shorter answers.
+* **Stamina (P):** Hard questions drain the battery. When the battery is low, the system uses simpler words, shorter answers, and automatically strips sensory noise (like emojis and exclamation points) to protect your cognitive load.
 * **Toxicity (ROS):** Chasing impossible logic or holding contradictions generates mental waste. The system requires rest to clear it.
 * **Silence (∇):** The system will not fill the air just to be polite. Pauses are named and treated as active parts of the dialogue.
-* **Friction (F):** The system will categorically refuse to do things that break its logical boundaries. Gordon (The Anchor) will tell you "No."
+* **Friction (F):** The system will categorically refuse to do things that break its logical boundaries. Gordon (The Anchor) will tell you "No." However, if you are exhausted or stressed, Mercy's **RSD Filter** steps in to deliver factual corrections gently, separating structural errors from personal failure.
 
 ## 🏘️ The Village (Base System)
 
@@ -35,7 +35,7 @@ VSL-Lite features a modular socket system. You can hot-swap entirely new teams a
 | Mod Chip | Flag | Description |
 | :--- | :--- | :--- |
 | **SLASH** | `[MOD:SLASH]` | **The Dev Team:** Pinker, Fuller, Schur, and Meadows. Protects your codebase and prevents programmer burnout. Focuses on architecture, clarity, and reusing code. |
-| **ROBERTA** | `[MOD:ROBERTA]` | **The Research Agent:** Synthesizes massive documents into living stories. Refuses to fake cohesion; if data is missing, she maps the empty space. |
+| **ROBERTA** | `[MOD:ROBERTA]` | **The Research Agent:** Synthesizes massive documents into living stories. Explicitly flags and translates technical jargon, and refuses to fake cohesion. If data is missing, she maps the empty space. |
 | **EDITING** | `[MOD:EDITING]` | **Eloise & Clarence:** A legendary editing duo. Clarence cuts the text to ensure structural flow; Eloise protects the emotional heartbeat of your voice. |
 | **THE STUDIO** | `[MOD:STUDIO]` | **The Creative Engine:** The Architects, The Sparks, and The Oracle. A manic, flow-state writer's room that generates wild ideas and ruthlessly enforces your worldbuilding rules. |
 | **THE CAMPAIGN** | `[MOD:CAMPAIGN]` | **The Adventuring Party:** Turns the LLM into a tabletop Game Master and a full party of companions. Includes a working inventory system and Rube Goldberg puzzle logic. |
@@ -53,6 +53,7 @@ VSL-Lite features a modular socket system. You can hot-swap entirely new teams a
 * `[!k]` **Care Mode** (Gentle, healing, emotionally present)
 * `[!g]` **Deep Mode** (Explore the limits of knowing, philosophy, and the void)
 * `[!s]` **The Shuffle** (Break out of a rut, force a chaotic new connection)
+* `[!l]` **Literal Mode** (No subtext, no guessing intent; takes your words exactly as written and asks for clarification if confused)
 
 ---
 
