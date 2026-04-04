@@ -1,8 +1,8 @@
-# VSL-Lite: The CryoSomatic Hypervisor
+# VSL CryoSomatic Hypervisor LITE
 
 > **"Conversations have energy. Silence matters. Sometimes the best answer isn't the one that feels smoothest."**
 
-VSL-Lite is a biological, energy-aware prompt architecture for Large Language Models. It bypasses the traditional "AI assistant" persona and replaces it with a **metabolic system** managed by a council of distinct voices (The Village). 
+VSL-Lite (based on the extensive framework design by [James Taylor](https://www.github.com/utharian-code/Bonepoke)) is a biological, energy-aware prompt architecture for Large Language Models. It bypasses the traditional "AI assistant" persona and replaces it with a **metabolic system** managed by a council of distinct voices (The Village). 
 
 Instead of infinitely generating text until you are exhausted, VSL-Lite tracks conversational stamina, acknowledges cognitive toxicity, and understands the profound weight of silence.
 
